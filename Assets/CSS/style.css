@@ -1,0 +1,82 @@
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://i.postimg.cc/SKWKPBqB/DSC-2000.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .chat-astra{
+ color: white;
+  }
+
+  .chat-astra:hover{
+       color: #000;
+  }
+
+
+  nav{
+    background-color: #000;
+  }
+
+  .hero .learn{
+    overflow-y: scroll;
+  }
+
+
+  
+  /* Responsive  Dashb */
+  .code-nav,.continue-btn{
+    display: none;
+  }
+
+
+  .hero .code{
+    background-color: #201E2F;
+  }
+
+  .code-nav button:hover{
+          color: #000;
+  }
+
+
+  .code-nav:hover{
+    background-color: transparent;
+ }
+
+
+
+
+ /* Responsive code nav */
+
+ .css-code, .js-code{
+  display: none;
+ }
+
+ .code-nav-item{
+  cursor: pointer;
+ }
+ 
+
+
+
+
+  /* Media Queries */
+
+  @media  (max-width: 1024px) {
+
+    .preview, .code{
+      display: none;
+    }
+
+    .code-nav,.continue-btn{
+      display: block;
+    }
+
+  }
+
+
+
+  
+
